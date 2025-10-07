@@ -83,9 +83,9 @@ evaluate**.
 - Build a Streamlit dashboard for interactive optimization.
 ---
 ## 💼 Author
-**[Your Name]**
+**[Shourya Singh Thakur]**
 Quantitative Finance & Strategy Enthusiast | MFE Aspirant | Data-driven Portfolio Engineer
-📧 [your.email@example.com] | 🌐 [LinkedIn/GitHub link]
+📧 [shouryast.1004@gmail.com]] 
 ---
 ## 🧱 Repository Name Suggestion
 **`quant-portfolio-optimizer`** — clear, professional, and descriptive.
