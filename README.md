@@ -86,6 +86,3 @@ evaluate**.
 **[Shourya Singh Thakur]**
 Quantitative Finance & Strategy Enthusiast | MFE Aspirant | Data-driven Portfolio Engineer
 📧 [shouryast.1004@gmail.com]] 
----
-## 🧱 Repository Name Suggestion
-**`quant-portfolio-optimizer`** — clear, professional, and descriptive.
