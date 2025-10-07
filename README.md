@@ -44,9 +44,9 @@ Each strategy computes **expected annualized return, volatility, and Sharpe rati
 ## 📊 Key Results
 | Strategy | Expected Return | V olatility | Sharpe Ratio |
 |-----------|----------------|-------------|---------------|
-| Equal Weight | Moderate | Medium | ~1.22 |
-| Mean-Variance | High | Medium-High | ~1.55 |
-| HRP | Balanced | Low | ~1.48 |
+| Equal Weight | Moderate | Medium | ~1.34 |
+| Mean-Variance | High | Medium-High | ~1.59|
+| HRP | Balanced | Low | ~1.24 |
 | Max Sharpe | Highest | Moderate | ~1.58 |
 > ✅ Optimized portfolios demonstrated strong Sharpe ratios (1.22–1.58).
 > ✅ Momentum + return-based ranking effectively identified outperforming equities.

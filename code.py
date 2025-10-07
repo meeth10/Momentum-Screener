@@ -60,7 +60,7 @@ ew_weights = np.ones(n) / n
 ew_ret = np.dot(ew_weights, mean_returns)
 ew_vol = np.sqrt(np.dot(ew_weights.T, np.dot(cov_matrix, ew_weights)))
 ew_sharpe = ew_ret / ew_vol
-
+print(ew_sharpe)
 # Mean-Variance Optimization
 def portfolio_stats(weights, mean_returns, cov_matrix):
     port_return = np.dot(weights, mean_returns)
@@ -79,16 +79,17 @@ opt_results = minimize(negative_sharpe, np.ones(n) / n, args=(mean_returns, cov_
 
 mvo_weights = opt_results.x
 mvo_ret, mvo_vol, mvo_sharpe = portfolio_stats(mvo_weights, mean_returns, cov_matrix)
-
+print(mvo_sharpe)
 # HRP
 hrp = HRPOpt(daily_returns)
 hrp_weights = hrp.optimize()
 hrp_ret, hrp_vol, hrp_sharpe = hrp.portfolio_performance()
+print(hrp_sharpe)
 # Momentum
 ef = EfficientFrontier(mean_returns, cov_matrix)
 mom_weights = ef.max_sharpe()
 mom_ret, mom_vol, mom_sharpe = ef.portfolio_performance()
-
+print(mvo_ret, mvo_vol, mvo_sharpe)
 plt.figure(figsize=(8,5))
 sns.barplot(x="Ticker", y="Total_Score", data=scores_df, palette="Blues_d")
 plt.title("Momentum + Moving Average Score")
